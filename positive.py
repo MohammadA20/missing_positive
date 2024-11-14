@@ -15,6 +15,6 @@ def first_missing_positive(numbers):
             missing_number += 1
         elif positive > missing_number:
             break
-        return missing_number
+    return missing_number
 MISSING_NUMBER_FOUND = first_missing_positive([1,2,4,5,6])
 print(MISSING_NUMBER_FOUND)
